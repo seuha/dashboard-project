@@ -29,4 +29,4 @@ window.ft = {
   debounce,
 };
 
-export { pluck, uniq };
+export { pluck, uniq, debounce };
