@@ -26,7 +26,7 @@ The main component of the dashboard is the map displayign spatial information. T
 
 ### Step 3: Add data to your map
 
-* Add data file to your repository folder (usually in a data subfolder) - remember geojson files work best, csv files work too but must be parsed using csv parse https://csv.js.org/parse/ or papa parse https://www.papaparse.com/ 
+* Add data file to your repository folder (usually in a data subfolder) - remember geojson files work best, csv files work too but must be parsed using csv parse https://csv.js.org/parse/ or papa parse https://www.papaparse.com/ . See [the course resources](https://github.com/musa-6110-fall-2023/course-info/blob/main/resources/data-format-csv.md) for a guide to getting started with those libraries.
 * Use fetch API https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API to load your data into your environment (remember, fetch returns a promise, not a file, and a file needs to be extracted from the promise)
 * Create map layer to display data (ie LayerGroup, Marker, etc.. see documentation https://leafletjs.com/reference.html) - style the layer here, not in CSS because CSS cannot access styles within the map 
 * Display data through your map layer (either create an empty layer and pass the data through in a separate function, or input the data directly when you create the layer)
